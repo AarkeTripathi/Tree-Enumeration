@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from yolov5.utils.general import non_max_suppression, scale_segments
+
 # from utils.dataloaders import LoadImages
 import urllib.request
 
@@ -77,6 +78,3 @@ def tree_count(url):
         cv2.imwrite(file_name, img)
 
     return class_count
-
-url= r'https://divyanshurana312.pythonanywhere.com/predictionImages/4_jpg.rf.78e78dcf6c0fd6de02474319863827b2.jpg'
-print(tree_count(url)) 
