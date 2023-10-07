@@ -79,4 +79,4 @@ def tree_count(url):
     return class_count
 
 url= r'https://divyanshurana312.pythonanywhere.com/predictionImages/4_jpg.rf.78e78dcf6c0fd6de02474319863827b2.jpg'
-print(tree_count(url))
+print(tree_count(url)) 
